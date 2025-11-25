@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир домашних животных</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="nav-logo">🐾 Домашние питомцы</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Главная</a></li>
+                    <li class="nav-item"><a href="#animals" class="nav-link">Питомцы</a></li>
+                    <li class="nav-item"><a href="#care" class="nav-link">Уход</a></li>
+                    <li class="nav-item"><a href="#quiz" class="nav-link">Тест</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Мир домашних животных</h1>
+            <p>Ваши верные друзья ждут встречи с вами</p>
+            <a href="#animals" class="cta-button">Узнать больше</a>
+        </div>
+    </section>
+
+    <section id="animals" class="animals-section">
+        <div class="container">
+            <h2 class="section-title">Наши любимцы</h2>
+            <div class="animals-grid">
+                <div class="animal-card">
+                    <div class="animal-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.kknwXl7nWKbqyv5joJyYOQHaFQ%3Fpid%3DApi&f=1&ipt=54141d519c6227e532dd82406afd6db3a0826359f25113758575e8c0ab0faf90&ipo=images" alt="Кошка">
+                    </div>
+                    <div class="animal-info">
+                        <h3>Кошки</h3>
+                        <p>Независимые и грациозные создания</p>
+                        <button class="info-btn" data-animal="cat">Подробнее</button>
+                    </div>
+                </div>
+                <div class="animal-card">
+                    <div class="animal-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.meBx_vR1wX7ntLaq0Q7t2gHaHa%3Fpid%3DApi&f=1&ipt=bf5a2288823e2b441cd2a8eb2bceae161e4e4b76e51af376854977f9cebe7f7c&ipo=images" alt="Собака">
+                    </div>
+                    <div class="animal-info">
+                        <h3>Собаки</h3>
+                        <p>Верные друзья и защитники</p>
+                        <button class="info-btn" data-animal="dog">Подробнее</button>
+                    </div>
+                </div>
+                <div class="animal-card">
+                    <div class="animal-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.KQ15ZrWG0Ql2ZN6pvbBoDQHaEK%3Fpid%3DApi&f=1&ipt=650b20ec0c58abf2bdedd7698b6a8b4772f1fe8f7d4e169ee477c71eb76ac746&ipo=images" alt="Кролик">
+                    </div>
+                    <div class="animal-info">
+                        <h3>Кролики</h3>
+                        <p>Милые и пушистые питомцы</p>
+                        <button class="info-btn" data-animal="rabbit">Подробнее</button>
+                    </div>
+                </div>
+                <div class="animal-card">
+                    <div class="animal-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.ifGL58GH6CzYrRsJ8gflwQHaEo%3Fpid%3DApi&f=1&ipt=44cca75a7019d2d716d6229fef591470c5216c058eaa8358f82d6030cbfc235d&ipo=images" alt="Хомяк">
+                    </div>
+                    <div class="animal-info">
+                        <h3>Хомяки</h3>
+                        <p>Маленькие и активные друзья</p>
+                        <button class="info-btn" data-animal="hamster">Подробнее</button>
+                    </div>
+                </div>
+                <div class="animal-card">
+                    <div class="animal-image">
+                        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.Q2DKUPW7bJKpj8E1XybYogHaE-%3Fpid%3DApi&f=1&ipt=3d3a53e792439a9fc71d8fe701898d83ea116d644141949739e4a9c619a70ad8&ipo=images" alt="Рыбки">
+                    </div>
+                    <div class="animal-info">
+                        <h3>Рыбки</h3>
+                        <p>Спокойные и красивые питомцы</p>
+                        <button class="info-btn" data-animal="fish">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="care" class="care-section">
+        <div class="container">
+            <h2 class="section-title">Советы по уходу</h2>
+            <div class="care-tips">
+                <div class="tip">
+                    <div class="tip-icon">🥕</div>
+                    <h3>Правильное питание</h3>
+                    <p>Сбалансированный рацион - залог здоровья вашего питомца</p>
+                </div>
+                <div class="tip">
+                    <div class="tip-icon">🏥</div>
+                    <h3>Регулярные осмотры</h3>
+                    <p>Профилактические визиты к ветеринару</p>
+                </div>
+                <div class="tip">
+                    <div class="tip-icon">🧹</div>
+                    <h3>Гигиена</h3>
+                    <p>Содержание в чистоте жилища питомца</p>
+                </div>
+                <div class="tip">
+                    <div class="tip-icon">🎾</div>
+                    <h3>Активность</h3>
+                    <p>Регулярные игры и физические нагрузки</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <h2 class="section-title">Какой питомец вам подходит?</h2>
+            <div class="quiz-container">
+                <div id="quizQuestion" class="quiz-question">
+                    <h3>Какой у вас образ жизни?</h3>
+                </div>
+                <div class="quiz-options">
+                    <button class="quiz-option" data-value="active">Активный, много двигаюсь</button>
+                    <button class="quiz-option" data-value="calm">Спокойный, дома много времени</button>
+                    <button class="quiz-option" data-value="busy">Занятой, часто на работе</button>
+                    <button class="quiz-option" data-value="family">Семейный, с детьми</button>
+                </div>
+                <div id="quizResult" class="quiz-result"></div>
+                <button id="restartQuiz" class="restart-btn">Пройти тест заново</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Домашние питомцы</h3>
+                    <p>Сайт создан с любовью к животным</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#animals">Питомцы</a></li>
+                        <li><a href="#care">Уход</a></li>
+                        <li><a href="#quiz">Тест</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+               
+            </div>
+        </div>
+    </footer>
+
+    <div id="animalModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 class="modal-title" id="modalTitle">Информация о животном</h2>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
